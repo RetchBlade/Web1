@@ -1,0 +1,21 @@
+//Aufgabe2
+->Besucher sichtbar: Im altert die Ausgabe D und auf der Seite die Ausgabe A und B
+-> In der Console steht die Ausgabe C
+
+//Aufgabe 3
+-> Es funktioniert!
+// Aufgabe 4
+-> olert ist nicht definiert (Error)
+
+// Aufgabe 5
+->Erwartet wird 8
+-> x ist nicht definiert (Error)
+
+// Aufgabe 6.1
+-> var el = document.getElementsByTagName("a2"); 
+
+// Aufgabe 6.2
+-> var el = document.getElementsByClassName(c3)
+
+// Aufgabe 7 
+-> Seiteninhalt wird verschwendet.
