@@ -1,0 +1,232 @@
+/*** 
+
+	General 
+
+***/
+
+html, body{
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-family: "Verdana", sans-serif;
+	text-align: justify;
+}
+
+a{
+	color: #C2FFD7;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+
+
+/***
+
+	Header
+
+***/
+
+
+#header{
+	background-image: url('../img/hero-header.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+#hero-header{
+	padding-top: 5%;
+	width: 40%;
+	/* centering */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 500%;
+	font-family: "Rock Salt", cursive;
+	color: #C2FFD7;
+}
+
+h2{
+	text-align: center;
+	font-family: "Over the Rainbow", cursive;
+}
+
+.nav{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+}
+
+#brand{
+	display: inline;
+	font-family: "Rock Salt", cursive;
+}
+
+ul#menu{
+	margin: 0;
+	float: right;
+}
+
+ul#menu li{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+/***
+
+	Main Content
+
+***/
+
+.main{
+	border-top: 1px solid white;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 50px;
+}
+
+h3{
+	font-size: 300%;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #C2FFD7;
+	font-family: "Over the Rainbow", cursive;
+}
+
+hr{
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 35%;
+	background-color: white;
+}
+
+#game p{
+	text-align: center;
+}
+
+iframe{
+	background-color: #717171;
+	/* centering */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#highscore-form{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#highscore-form input{
+	border: 0;
+	text-align: center;
+}
+
+#username{
+	height: 30px;
+	margin: 10px;
+	padding: 2px;
+}
+
+#points{
+	font-size: 150%;
+	color: #C2FFD7;
+	background-color: black;
+	margin-left: 15px;
+}
+
+#highscore-form button{
+	background-color: #C2FFD7;
+	border: 0;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	font-size: 100%;
+}
+
+#highscore table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#highscore th{
+	font-size: 120%;
+	font-family: "Over the Rainbow", cursive;
+}
+
+#highscore td, #highscore th{
+	border: 2px solid white;
+	padding: 5px;
+	text-align: center;
+}
+
+#highscore td:first-child, #highscore th:first-child{
+	border-left: none;
+}
+
+#highscore td:last-child, #highscore th:last-child{
+	border-right: none;
+}
+
+#highscore tr:first-child th{
+	border-top: none;
+}
+
+#highscore tr:last-child td{
+	border-bottom: none;
+}
+
+.address{
+	text-align: center;
+}
+
+/***
+
+	Footer
+
+***/
+
+.footer{
+	border-top: 1px solid white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 100%;
+	margin-top: 50px;
+	box-sizing: border-box;
+}
+
+#copyright{
+	display: inline;
+}
+
+ul#legal{
+	margin: 0;
+	float: right;
+}
+
+#legal li{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
