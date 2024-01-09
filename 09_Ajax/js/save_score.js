@@ -15,7 +15,7 @@ function addScore(){
 	var points = document.getElementById("points").value;
 	var username = document.getElementById("username").value;
 	var req = getXMLHttpRequest();
-	req.onreadystatechange = function () {
+	req.onreadystatechange = function() {
 		if (req.readyState == 4 && req.status === 200) { 	// Die Antwort des Servers liegt vor
 			if(req.responseText == "1"){
 				alert("Erfolgreich gespeichert! Seite wird neu geladen, um das Spiel zurückzusetzen...");
