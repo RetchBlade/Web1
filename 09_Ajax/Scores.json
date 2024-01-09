@@ -1,0 +1,15 @@
+{
+	"highscores": [
+		{
+			"id": 1,
+			"username": "Willi",
+			"points": 5
+		},
+		{
+			"id": 2,
+			"username": "Hans",
+			"points": 7			
+		}
+
+	]
+}
